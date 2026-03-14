@@ -17,7 +17,7 @@ from mcp.server.fastmcp import FastMCP
 
 # ─── Server ───────────────────────────────────────────────────────────────────
 
-mcp = FastMCP("worldbank_mcp")
+mcp = FastMCP("worldbank_mcp", host="0.0.0.0")
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 
