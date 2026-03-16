@@ -1,0 +1,28 @@
+# Secrets and credentials
+.env
+*.key
+*credentials*
+.credentials.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files
+*.csv
+*.xlsx
+
+# Temp
+*.tmp
+*.log
